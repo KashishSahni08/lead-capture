@@ -58,15 +58,6 @@ React Landing Page ──► GA4 (event tracking: form_start, form_submit)
    npm run dev
    ```
 
-## Screenshots
-
-
-## What I'd add with more time
-
-- Lead scoring based on source and engagement
-- A real CRM integration (HubSpot) instead of a plain Google Sheet
-- A/B testing on the landing page copy, tracked through GA4
-
 ## Author
 
 Kashish Sahni 
