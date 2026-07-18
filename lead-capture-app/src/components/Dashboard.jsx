@@ -16,8 +16,9 @@ import {
 import "./Dashboard.css";
 
 // ---- CONFIG: replace these two values ----
-const SHEET_ID = "YOUR_SHEET_ID_HERE";
-const API_KEY = "YOUR_API_KEY_HERE";
+
+const SHEET_ID = "1GI9_bvN8d1h-_RYslddfyggtO3B5wGFSV3Sapfd3TQ4";
+const API_KEY = "AIzaSyBLNmuTBOWWdmMvitOadnoFD8Stx2Nmw7I";
 const RANGE = "Sheet1!A2:D1000"; // skips header row
 // -------------------------------------------
 
