@@ -16,8 +16,8 @@ import {
 import "./Dashboard.css";
 
 // ---- CONFIG: replace these two values ----
-const SHEET_ID = "1GI9_bvN8d1h-_RYslddfyggtO3B5wGFSV3Sapfd3TQ4";
-const API_KEY = "AIzaSyBLNmuTBOWWdmMvitOadnoFD8Stx2Nmw7I";
+const SHEET_ID = "YOUR_SHEET_ID_HERE";
+const API_KEY = "YOUR_API_KEY_HERE";
 const RANGE = "Sheet1!A2:D1000"; // skips header row
 // -------------------------------------------
 
@@ -153,15 +153,15 @@ export default function Dashboard() {
 
         <section className="dash-card dash-card--wide">
           <h2>Source breakdown</h2>
-          <ResponsiveContainer width="100%" height={260}>
-            <PieChart>
+          <ResponsiveContainer width="100%" height={280}>
+            <PieChart margin={{ top: 10, right: 60, bottom: 10, left: 60 }}>
               <Pie
                 data={bySource}
                 dataKey="count"
                 nameKey="source"
                 cx="50%"
                 cy="50%"
-                outerRadius={90}
+                outerRadius={80}
                 label={(entry) => `${entry.source}: ${entry.count}`}
               >
                 {bySource.map((entry) => (
